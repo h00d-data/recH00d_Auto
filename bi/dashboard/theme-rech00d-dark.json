@@ -1,0 +1,121 @@
+{
+  "name": "RecH00D Dark Cyber",
+  "dataColors": [
+    "#E10600",
+    "#00E5A8",
+    "#FFD166",
+    "#4CC9F0",
+    "#9B5DE5",
+    "#F15BB5"
+  ],
+  "background": "#0B0F14",
+  "foreground": "#E6EDF3",
+  "tableAccent": "#E10600",
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B0F14"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#1F2937"
+              }
+            }
+          }
+        ],
+        "title": [
+          {
+            "color": {
+              "solid": {
+                "color": "#E6EDF3"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#CBD5E1"
+              }
+            },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": false,
+            "gridHorizontal": true,
+            "color": {
+              "solid": {
+                "color": "#1F2937"
+              }
+            }
+          }
+        ],
+        "values": [
+          {
+            "color": {
+              "solid": {
+                "color": "#E6EDF3"
+              }
+            }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "color": {
+              "solid": {
+                "color": "#E10600"
+              }
+            },
+            "fontFamily": "Segoe UI Bold"
+          }
+        ]
+      }
+    },
+
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#00E5A8"
+              }
+            },
+            "fontSize": 24
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#94A3B8"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
