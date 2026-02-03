@@ -59,6 +59,7 @@ chmod +x recon.sh
 docker build -t rech00d .
 docker run --rm rech00d dominio.com
 
+
 🕶️ Modo Stealth (APT-style)
 
 * Configurado em stealth.conf:
@@ -69,6 +70,44 @@ docker run --rm rech00d dominio.com
 - Execução menos detectável
 - Preparado para DoH e output criptografado
 - Ativado automaticamente via configuração.
+
+🌐 API REST
+python3 api/app.py
+
+# Endpoints:
+
+- GET /domains
+- GET /subdomains/<domain>
+- Ideal para integração com dashboards, SIEM ou outros sistemas.
+
+
+📊 Power BI / BI
+
+# Modelo pronto com tabelas relacionais:
+
+- domain
+- recon_run
+- subdomain
+- ip_address
+- recon_result
+- Métricas comuns:
+- Subdomínios por domínio
+- IPs compartilhados
+- Crescimento histórico da superfície de ataque
+
+
+📌 Casos de Uso
+
+- Red Team / Purple Team
+- Bug Bounty
+- Pentest
+- Monitoramento de superfície de ataque
+- Estudos de infraestrutura
+
+⚠️ Disclaimer
+
+Este projeto deve ser utilizado exclusivamente em ambientes autorizados.
+O autor não se responsabiliza por qualquer uso indevido.
 
 
 ---
