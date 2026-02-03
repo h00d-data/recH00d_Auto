@@ -22,6 +22,24 @@ Não é um script.
 - 🌐 API REST para consulta
 - 🐳 Docker ready
 
+🛠️ Requisitos
+
+Sistema
+
+- Kali Linux (recomendado)
+- Docker (opcional)
+- MySQL 8+
+- Ferramentas
+assetfinder
+subfinder
+amass
+findomain
+Python
+Python 3.9+
+flask
+cryptography
+mysql-connector-python
+
 ---
 
 ## 📁 Estrutura do Projeto
@@ -55,4 +73,3 @@ RecH00D/
 │
 └── reports/
     └── report.py          # Gerador de relatório HTML
-
