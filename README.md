@@ -30,15 +30,46 @@ Sistema
 - Docker (opcional)
 - MySQL 8+
 - Ferramentas
-assetfinder
-subfinder
-amass
-findomain
-Python
-Python 3.9+
-flask
-cryptography
-mysql-connector-python
+- assetfinder
+- subfinder
+- amass
+- findomain
+- Python
+- Python 3.9+
+- flask
+- cryptography
+- mysql-connector-python
+
+⚙️ Instalação:
+
+Banco de Dados
+mysql -u root -p < db/schema.sql
+
+CREATE USER 'rech00d'@'localhost' IDENTIFIED BY 'rech00d';
+GRANT ALL PRIVILEGES ON rech00d.* TO 'rech00d'@'localhost';
+FLUSH PRIVILEGES;
+
+⚙️ Execução:
+
+chmod +x recon.sh
+./recon.sh dominio.com outrodominio.com
+
+⚙️ Docker:
+
+docker build -t rech00d .
+docker run --rm rech00d dominio.com
+
+🕶️ Modo Stealth (APT-style)
+
+* Configurado em stealth.conf:
+
+- Delay randômico entre execuções
+- Ordem aleatória de ferramentas
+- Baixa verbosidade
+- Execução menos detectável
+- Preparado para DoH e output criptografado
+- Ativado automaticamente via configuração.
+
 
 ---
 
